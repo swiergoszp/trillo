@@ -1,0 +1,26 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-grey-dark-2);
+}
+
+.header {
+  font-size: 1.4rem;
+}
+
+.search__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+.user-nav__notification {
+  font-size: .8rem;
+  color: #fff;
+}
+
+.legal {
+  font-size: 1.2rem;
+  color: var(--color-grey-light-4);
+}

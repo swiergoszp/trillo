@@ -1,2 +1,2 @@
 # trillo
-A travel web app
+A model hotel, car rental, accommodation booking site 
