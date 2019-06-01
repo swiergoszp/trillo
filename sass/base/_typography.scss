@@ -10,9 +10,9 @@ body {
 }
 
 .search__input {
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
 }
 
 .user-nav__notification {
@@ -23,4 +23,15 @@ body {
 .legal {
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
+}
+
+.overview__heading {
+  font-size: 2.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.description {
+  font-size: 1.4rem;
 }

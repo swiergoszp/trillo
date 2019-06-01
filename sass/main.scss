@@ -7,15 +7,21 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/button";
+@import "components/gallery";
+@import "components/overview";
 @import "components/search";
 @import "components/side-nav";
 @import "components/user-nav";
 
 @import "layout/container";
 @import "layout/content";
+@import "layout/detail";
+@import "layout/description";
 @import "layout/sidebar";
 @import "layout/header";
 @import "layout/hotel-view";
+@import "layout/user-reviews";
 
 
 @import "pages/home";
