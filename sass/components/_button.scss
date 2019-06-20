@@ -9,8 +9,65 @@
   cursor: pointer;
   transition: all .2s;
 
+  & span {
+    margin-left: 3px;
+    transition: margin-left .2s;
+  }
+
   &:hover {
     color: var(--color-grey-dark-1);
+
+    span {
+      margin-left: 8px;
+    }
+  }
+
+  &:focus {
+    outline: none;
+    animation: pulsate 1s infinite;
+  }
+}
+
+.btn {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+  background-image: linear-gradient(to right, var(--color-primary-light), var(--color-primary-dark));
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  & > * {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    transition: all .2s;
+  }
+
+  &__visible {
+    padding: 2rem 7.5rem;
+  }
+
+  &__invisible {
+    position: absolute;
+    left: 0;
+    top: -100%;
+    padding: 2rem 0;
+  }
+
+  &:hover {
+    background-image: linear-gradient(to left, var(--color-primary-light), var(--color-primary-dark));
+  }
+
+  &:hover &__visible {  
+    transform: translateY(100%);
+  }
+
+  &:hover &__invisible {  
+    top: 0;
   }
 
   &:focus {
