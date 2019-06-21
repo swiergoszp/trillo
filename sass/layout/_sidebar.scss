@@ -10,4 +10,8 @@
 .legal {
   text-align: center;
   padding: 2.5rem;
+
+  @media only screen and (max-width: $bp-medium){
+    display: none;
+  }
 }
